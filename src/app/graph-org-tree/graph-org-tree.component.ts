@@ -2,6 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Edge, Node, Layout } from '@swimlane/ngx-graph';
 import { DagreNodesOnlyLayout } from './customDagreNodesOnly';
 import * as shape from 'd3-shape';
+import data from './assets/response.json';
+
 
 export class Employee {
   id: string;
@@ -29,7 +31,8 @@ export class  GraphOrgTreeComponent implements OnInit {
   public layout: Layout = new DagreNodesOnlyLayout();
 
   constructor() {
-    this.employees = [
+    this.employees = data;
+    /* this.employees = [
       {
         id: '1',
         name: 'Employee 1',
@@ -85,7 +88,7 @@ export class  GraphOrgTreeComponent implements OnInit {
         backgroundColor: '#8A2BE2',
         upperManagerId: '2'
       }
-    ];
+    ]; */
   }
 
   public ngOnInit(): void {
