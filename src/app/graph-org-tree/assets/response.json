@@ -60,5 +60,13 @@
         "role": "Engineer",
         "backgroundColor": "#00FFFF",
         "upperManagerId": "1"
+    },
+    {
+        "id": "9",
+        "name": "Employee 9",
+        "office": "Office 9",
+        "role": "Student",
+        "backgroundColor": "#00FFFF",
+        "upperManagerId": "8"
     }
 ]
