@@ -16,7 +16,6 @@ export class AppComponent {
 
   public ngOnInit():void {
     this.showGraph();
-    console.log("hello");
   }
 
   showGraph() {
