@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ExploreGit"
+    }
+  },
+  "defaultProject": "ExploreGit",
+  "cli": {
+    "analytics": "3cb653a6-5490-470a-bf4c-29ed97d661ad"
+  }
 }
