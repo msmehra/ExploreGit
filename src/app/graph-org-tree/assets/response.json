@@ -17,7 +17,7 @@
         "id": "3",
         "name": "Employee 3",
         "office": "Office 3",
-        "role": "Solution Architect",
+        "role": "Sr. Architect",
         "backgroundColor": "#00FFFF",
         "upperManagerId": "1"
     },
