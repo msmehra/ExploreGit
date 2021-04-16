@@ -9,7 +9,7 @@
         "id": "2",
         "name": "Employee 2",
         "office": "Office 2",
-        "role": "Engineer",
+        "role": "Scrum-Coach",
         "backgroundColor": "#00FFFF",
         "upperManagerId": "1"
     },
